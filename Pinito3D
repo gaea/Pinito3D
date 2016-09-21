@@ -1,6 +1,6 @@
 #! /bin/bash
-export CLASSPATH=.:../j3d/lib_32/ext/j3dcore.jar:../j3d/lib_32/ext/j3dutils.jar:../j3d/lib_32/ext/vecmath.jar
-export LD_LIBRARY_PATH=../j3d/lib_32/amd64
+export CLASSPATH=.:../j3d/lib/ext/j3dcore.jar:../j3d/lib/ext/j3dutils.jar:../j3d/lib/ext/vecmath.jar
+export LD_LIBRARY_PATH=../j3d/lib/amd64
 echo $LD_LIBRARY_PATH
-cd source
+cd bin
 java -splash:../images/splash.gif Pinito3D
